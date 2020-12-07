@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+	background: rgb(243,243,243); 
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.instagram-wrapp{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+.instagram-phone{
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+.instagram-phone img{
+	height: 45rem;
+	display: flex;
+}
+.instagram-continue{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	min-height: 34rem;
+}
+.logo{
+	width: 50%;
+}
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #fff;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+.logim{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100% !important;
+}
+.logim input{
+	margin-bottom: 10px;
+	width: 70%;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.group:nth-child(1){
+	min-height: 19rem;
+}
+.entrar{
+	height: 30px !important;
+	background: #b2dffc ;
+	font-size: 15px;
+	color:#fff;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.opcao img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.usuario, .senha{
+	background: rgb(243,243,243);
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+}
+.linha{
+	width: 70%;
+	border: 1px solid #dbdbdb;
+	margin-top:15px;
+}
+.opcao a{
+	margin-top: 20px;
+	align-items: center;
+	color: #385185;
+	font-size: 13px;
+}
+.facebook{
+	max-width: 5%;
+	margin-right: 5px;
+	align-items: center;
+	display: inline-block;
+	position: relative;
+	bottom: 2px;
+}
+.opcao a, .facebook{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: center;
+}
+.group:nth-child(2) a{
+	justify-content: center;
+	align-items: center;
+	color:#52c2fb;
+	margin-left: 7px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.group:nth-child(2){
+	font-size: 14px;
+}
+.get-the-app{
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding:1.3rem 0;
+	width: 100%;
+}
+.download{
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	width: 100%;
+	padding: 1rem;
+}
+.app-download{
+	height: 3rem;
+	width: 10rem;
+	background-size:cover;
+}
+.app-download:nth-child(1){
+	background-image: url(apple.png);
+}
+.app-download:nth-child(2){
+	background-image: url(google.png);
+}
+@media (max-width: 1024px){
+	.instagram-wrapp{
+		width: 90%;
+	}
+}
+@media (max-width: 650px){
+	.instagram-wrapp{
+		width: 90%
+	}
+	.instagram-phone{
+		display: none;
+	}
+	.instagram-continue{
+		width: 100%;
+	}
+	.group{
+		border:1px solid transparent;
+	}
+}
